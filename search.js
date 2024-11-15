@@ -36,7 +36,7 @@ function searchContent() {
     }
 
     if (!resultsHTML) {
-        resultsHTML = '<p>No se encontraron coincidencias.</p>';
+        resultsHTML = '<h2>No se encontraron coincidencias.</h2>';
     }
 
     document.getElementById("searchResults").innerHTML = resultsHTML;
