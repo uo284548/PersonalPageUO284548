@@ -184,13 +184,9 @@ button {
     .image-content img {
         width: 100%;
     }
-
-    nav ul li a img {
-        display: none; /* Oculta los iconos */
-    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 850px) {
     .intro-container {
         flex-direction: column;
         align-items: center;
@@ -214,10 +210,6 @@ button {
     nav ul li {
         display: block;
         margin: 0.5rem 0;
-    }
-
-    nav ul li a img {
-        display: none; /* Oculta los iconos */
     }
 
     main {
